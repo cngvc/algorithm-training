@@ -1,6 +1,8 @@
 # https://leetcode.com/problems/coin-change/
 # solution includes the concepts of dynamic programming
 
+import sys
+
 class Solution(object):
     def coinChange(self, coins, amount):
         db = [sys.maxint] * (amount + 1)
